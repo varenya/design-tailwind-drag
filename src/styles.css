@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h4 {
+  margin: 0;
+}
+
+span,
+div {
+  color: #666;
+}
+
+.choose_teams {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 100%;
+  flex-flow: row wrap;
+}
+
+.choose_teams .cards {
+  flex: 0 1 auto;
+}
+
+.choose_teams .dropzones {
+  flex: 1 0 45%;
+}
